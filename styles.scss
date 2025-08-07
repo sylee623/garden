@@ -2,11 +2,11 @@
 ---
 $max-content-width: {{ site.max_width | default: '63em' }};
 
-@import "./_sass/normalize";
-@import "./_sass/code";
-@import "./_sass/style";
+@import "normalize";
+@import "code";
+@import "style";
 
-@import "./_sass/variables";
-@import "./_sass/themes";
-@import "./_sass/layout";
-@import "./_sass/base";
+@import "variables";
+@import "themes";
+@import "layout";
+@import "base";
