@@ -1,4 +1,4 @@
-title:               My digital garden
+title:               Seoyeon Lee's Digital Garden
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.
@@ -42,7 +42,6 @@ defaults:
     values:
       layout: "note"
 
-title: "Seoyeon Lee"
 enable_navbar_social: false
 enable_darkmode: true
 enable_progressbar: true
@@ -52,10 +51,6 @@ navbar_fixed: true
 search_enabled: false
 
 # 메뉴 구성 예시
-collections:
-  pages:
-    output: true
-
 nav_pages:
   - title: "CV"
     url: "/cv/"
