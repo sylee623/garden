@@ -4,11 +4,6 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: {{ site.max_width }};
-@import "variables";
-@import "themes";
-@import "layout";
-@import "base";
 
 @import "normalize";
 @import "code";
