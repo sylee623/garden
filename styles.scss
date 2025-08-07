@@ -4,3 +4,10 @@
 @import "../_sass/normalize";
 @import "../_sass/code";
 @import "../_sass/style";
+
+@use "variables" as *;
+@use "layout" as *;
+@use "themes" as *;
+@use "base" as *;
+
+$max-content-width: {{site.max_width | default: '63em' }};
