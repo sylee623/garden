@@ -41,3 +41,23 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+
+title: "Seoyeon Lee"
+enable_navbar_social: false
+enable_darkmode: true
+enable_progressbar: true
+
+navbar_fixed: true
+
+search_enabled: false
+
+# 메뉴 구성 예시
+collections:
+  pages:
+    output: true
+
+nav_pages:
+  - title: "CV"
+    url: "/cv/"
+  - title: "Blog"
+    url: "/blog/"
