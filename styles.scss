@@ -1,11 +1,12 @@
 ---
 ---
-$max-content-width: {{site.max_width | default: '63em' }};
+$max-content-width: {{ site.max_width | default: '63em' }};
 
-@import "../_sass/variables";
-@import "../_sass/themes";
-@import "../_sass/layout";
-@import "../_sass/base";
-@import "../_sass/normalize";
-@import "../_sass/code";
-@import "../_sass/style";
+@import "./_sass/normalize";
+@import "./_sass/code";
+@import "./_sass/style";
+
+@import "./_sass/variables";
+@import "./_sass/themes";
+@import "./_sass/layout";
+@import "./_sass/base";
