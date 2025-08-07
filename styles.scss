@@ -1,12 +1,10 @@
 ---
 ---
-$max-content-width: {{ site.max_width | default: '63em' }};
-
-@import "normalize";
-@import "code";
-@import "style";
-
 @import "variables";
 @import "themes";
 @import "layout";
 @import "base";
+
+@import "normalize";
+@import "code";
+@import "style";
