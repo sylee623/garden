@@ -1,4 +1,8 @@
 // assets/css/style.scss
+@charset "utf-8";
+
+$max-content-width: {{site.max_width | default: '63em' }};
+
 @use "variables" as *;
 @use "layout" as *;
 @use "themes" as *;
