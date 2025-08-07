@@ -1,4 +1,14 @@
-title:               Seoyeon Lee's Digital Garden
+title:               Seoyeon Lee
+## Al-folio config
+first_name: Seoyeon
+last_name: Lee
+
+
+enable_navbar_social: true
+enable_darkmode: true
+enable_progressbar: true
+navbar_fixed: true
+
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.
