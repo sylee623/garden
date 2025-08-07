@@ -1,13 +1,15 @@
 ---
 ---
 
+$max-content-width: {{site.max_width | default: '63em' }};
+
+
+@use "../_sass/variables" as *;
+@use "../_sass/layout" as *;
+@use "../_sass/themes" as *;
+@use "../_sass/base" as *;
+
 @import "../_sass/normalize";
 @import "../_sass/code";
 @import "../_sass/style";
 
-@use "variables" as *;
-@use "layout" as *;
-@use "themes" as *;
-@use "base" as *;
-
-$max-content-width: {{site.max_width | default: '63em' }};
