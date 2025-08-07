@@ -4,6 +4,7 @@
  ******************************************************************************/
 
 @use "sass:color";
+$max-content-width: {{ site.max_width | default: '63em' }};
 
 // Colors
 $red-color: #ff3636 !default;
