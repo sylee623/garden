@@ -1,6 +1,6 @@
 git add .
 git commit -m "Upload source files for garden"
-git push origin main
+git push origin main  --force-with-lease
 bundle exec jekyll build
 
 cd _site
